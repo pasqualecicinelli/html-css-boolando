@@ -12,9 +12,16 @@ nav{
     min-height: 80px;
     width: 100%;
 }
+footer{
+    border: 1px solid black;
+    width: 1500px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .conteiner{
-    width: 1200px;
+   max-width: 1500px;
     height: 80px;
     margin-left: auto;
     margin-right: auto;
@@ -31,11 +38,40 @@ nav{
     display: flex;
 }
 .just-eve{
-    justify-content:center;
+    justify-content:space-evenly;
+}
+.just-cent{
+    justify-content: center;
+}
+.just-betw{
+    justify-content: space-between;
 }
 .ali-it-cent{
     align-items: center;
 }
-img{
+.wrap{
+    flex-wrap: wrap;
+}
+.logo > img{
     width: 20%;
+}
+.conteiner-card{
+    width: 100%;
+    
+    border: 1px solid black;
+}
+.conteiner-info{
+    width: 50%;
+}
+.conteiner-brand{
+    width: 50%;
+}
+.card{
+    width: 25%;
+    height: 850px;
+    border: 1px solid black;
+    margin:60px 20px;
+}
+.card > img{
+    width: 100%;
 }
