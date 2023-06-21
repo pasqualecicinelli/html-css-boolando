@@ -16,11 +16,8 @@ nav {
 
 footer {
     border: 1px solid black;
-    width: 1500px;
-    height: 100px;
     background-color: #1A1A1A;
-    margin-left: auto;
-    margin-right: auto;
+  
 }
 
 .conteiner {
@@ -29,7 +26,12 @@ footer {
     margin-left: auto;
     margin-right: auto;
 }
-
+.conteiner-foot{
+    width: 1500px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .link,
 .login-shop {
     width: 25%;
@@ -116,8 +118,16 @@ i {
     background-color: white;
 }
 .company{
-
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin: 10px 0;
 }
+.fa-brands{
+    font-size: 1.25rem;
+    margin: 7px 3px;
+    
+}
+
 .flex {
     display: flex;
 }
@@ -156,6 +166,7 @@ i {
 
 .conteiner-brand {
     width: 50%;
+    text-align: end;
 }
 
 .card {
@@ -168,14 +179,35 @@ i {
 .card > img {
     width: 100%;
 }
+.info{
+    margin-right:5px;
+}
+.found-on{
+    font-weight: bold;
+}
+.info, .found-on{
+    font-size: 1rem;
+}
 
 .card:hover .heart {
     display: block;
     color: red;
 }
+
+.link:hover a{
+    display: inline-block;
+    text-align: start;
+    text-decoration: underline;
+}
+
+    /*  PROVA */
 .card > img:hover .show-second{
     display: block;
 }
 .show-second{
-    backface-visibility: url('../img/1b.webp');
+    background-image: url('../img/1b.webp');
+    display: ;
+}
+.card > img{
+    
 }
