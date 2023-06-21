@@ -27,8 +27,8 @@ footer {
     margin-right: auto;
 }
 .conteiner-foot{
-    width: 1500px;
-    height: 100px;
+    max-width: 1500px;
+    min-height: 100px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -65,7 +65,10 @@ i {
 .marchio,
 .price,
 .price-before {
-    font-size: 0.75rem;
+    font-size: 1rem;
+}
+.type-dress{
+    font-size: 1.25rem;
 }
 
 .price {
@@ -100,10 +103,21 @@ i {
     bottom: 125px;
     left: 53px;
 }
+.sostenibilita-last{
+    width: 110px;
+    height: 25px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 25px;
+    font-size: 1rem;
+    background-color: #008000;
+    display: block;
+    bottom: 125px;
+}
 
 .discount,
 .sostenibilita,
-.heart {
+.heart,.sostenibilita-last {
     position: absolute;
 }
 
@@ -171,7 +185,7 @@ i {
 
 .card {
     width: 25%;
-    height: 750px;
+    
     margin: 60px 20px;
     position: relative;
 }
@@ -188,6 +202,7 @@ i {
 .info, .found-on{
     font-size: 1rem;
 }
+
 
 .card:hover .heart {
     display: block;
