@@ -204,7 +204,7 @@ i {
 }
 
 
-.card:hover .heart {
+.card:hover .heart, .card:hover.show-second{
     display: block;
     color: red;
 }
@@ -216,13 +216,22 @@ i {
 }
 
     /*  PROVA */
-.card > img:hover .show-second{
-    display: block;
+.card-img:hover .second-img{
+        display: inline;
 }
-.show-second{
-    background-image: url('../img/1b.webp');
-    display: ;
-}
-.card > img{
+.card-img .second-img{
     
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.card >.second-img{
+    
+    position: relative;
+    display: inline-block;
+
+}
+.second-img,.first-img{
+    width: 100%;
 }
