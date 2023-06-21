@@ -19,7 +19,7 @@ footer {
     background-color: #1A1A1A;
   
 }
-
+        /*CONTEINER*/
 .conteiner {
     max-width: 1500px;
     height: 80px;
@@ -32,13 +32,25 @@ footer {
     margin-left: auto;
     margin-right: auto;
 }
+.conteiner-card {
+    width: 100%;
+}
+
+.conteiner-info {
+    width: 50%;
+}
+
+.conteiner-brand {
+    width: 50%;
+    text-align: end;
+}
+
 .link,
 .login-shop {
     width: 25%;
 }
 
-.white-text,
-i {
+.white-text, i {
     color: #FFFEFD;
 
 }
@@ -60,6 +72,25 @@ i {
 
 .login-shop {
     text-align: end;
+}
+.card {
+    width: 25%;
+    margin: 60px 20px;
+    position: relative;
+}
+
+.info{
+    margin-right:5px;
+}
+.found-on{
+    font-weight: bold;
+}
+.info, .found-on{
+    font-size: 1rem;
+}
+
+.logo>img {
+    width: 20%;
 }
 
 .marchio,
@@ -92,18 +123,13 @@ i {
 }
 
 .sostenibilita {
-    width: 110px;
-    height: 25px;
-    font-weight: bold;
-    text-align: center;
-    line-height: 25px;
-    font-size: 1rem;
-    background-color: #008000;
-    display: block;
     bottom: 125px;
     left: 53px;
 }
 .sostenibilita-last{
+    bottom: 125px;
+}
+.sostenibilita, .sostenibilita-last{
     width: 110px;
     height: 25px;
     font-weight: bold;
@@ -112,7 +138,6 @@ i {
     font-size: 1rem;
     background-color: #008000;
     display: block;
-    bottom: 125px;
 }
 
 .discount,
@@ -138,8 +163,7 @@ i {
 }
 .fa-brands{
     font-size: 1.25rem;
-    margin: 7px 3px;
-    
+    margin: 7px 3px; 
 }
 
 .flex {
@@ -166,72 +190,34 @@ i {
     flex-wrap: wrap;
 }
 
-.logo>img {
-    width: 20%;
-}
-
-.conteiner-card {
-    width: 100%;
-}
-
-.conteiner-info {
-    width: 50%;
-}
-
-.conteiner-brand {
-    width: 50%;
-    text-align: end;
-}
-
-.card {
-    width: 25%;
-    
-    margin: 60px 20px;
-    position: relative;
-}
-
-.card > img {
-    width: 100%;
-}
-.info{
-    margin-right:5px;
-}
-.found-on{
-    font-weight: bold;
-}
-.info, .found-on{
-    font-size: 1rem;
-}
-
+        /*HOVER HEART*/
 
 .card:hover .heart, .card:hover.show-second{
     display: block;
     color: red;
 }
-
+        /*HOVER LINK-NAV-BAR*/
 .link:hover a{
     display: inline-block;
     text-align: start;
     text-decoration: underline;
 }
-
-    /*  PROVA */
+        /*HOVER IMG*/
 .card-img:hover .second-img{
-        display: inline;
+    display: inline;
 }
+
 .card-img .second-img{
-    
     display: none;
     position: absolute;
     top: 0;
     left: 0;
 }
-.card >.second-img{
-    
+.card >.second-img{   
     position: relative;
     display: inline-block;
-
 }
+
 .second-img,.first-img{
     width: 100%;
 }
