@@ -1,77 +1,181 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 
-header{
+header {
     background-color: #FF6900;
 }
-nav{
+
+nav {
     min-height: 80px;
     width: 100%;
 }
-footer{
+
+footer {
     border: 1px solid black;
     width: 1500px;
     height: 100px;
+    background-color: #1A1A1A;
     margin-left: auto;
     margin-right: auto;
 }
 
-.conteiner{
-   max-width: 1500px;
+.conteiner {
+    max-width: 1500px;
     height: 80px;
     margin-left: auto;
     margin-right: auto;
 }
-.link, .login-shop{
+
+.link,
+.login-shop {
     width: 25%;
 }
-.logo{
+
+.white-text,
+i {
+    color: #FFFEFD;
+
+}
+
+.margin-left {
+    margin-left: 5px;
+
+}
+
+.link>a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logo {
     width: 50%;
     text-align: center;
 }
 
-.flex{
+.login-shop {
+    text-align: end;
+}
+
+.marchio,
+.price,
+.price-before {
+    font-size: 0.75rem;
+}
+
+.price {
+    color: #FF1C27;
+    font-weight: bolder;
+}
+
+.price-before {
+    text-decoration: line-through;
+}
+
+.discount {
+    width: 50px;
+    height: 25px;
+    background-color: red;
+    font-weight: bold;
+    text-align: center;
+    line-height: 25px;
+    font-size: 1rem;
+    bottom: 125px;
+}
+
+.sostenibilita {
+    width: 110px;
+    height: 25px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 25px;
+    font-size: 1rem;
+    background-color: #008000;
+    display: block;
+    bottom: 125px;
+    left: 53px;
+}
+
+.discount,
+.sostenibilita,
+.heart {
+    position: absolute;
+}
+
+.heart {
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 50px;
+    top: 10px;
+    right: -5px;
+    background-color: white;
+}
+.company{
+
+}
+.flex {
     display: flex;
 }
-.just-eve{
-    justify-content:space-evenly;
+
+.just-eve {
+    justify-content: space-evenly;
 }
-.just-cent{
+
+.just-cent {
     justify-content: center;
 }
-.just-betw{
+
+.just-betw {
     justify-content: space-between;
 }
-.ali-it-cent{
+
+.ali-it-cent {
     align-items: center;
 }
-.wrap{
+
+.wrap {
     flex-wrap: wrap;
 }
-.logo > img{
+
+.logo>img {
     width: 20%;
 }
-.conteiner-card{
+
+.conteiner-card {
     width: 100%;
-    
-    border: 1px solid black;
 }
-.conteiner-info{
+
+.conteiner-info {
     width: 50%;
 }
-.conteiner-brand{
+
+.conteiner-brand {
     width: 50%;
 }
-.card{
+
+.card {
     width: 25%;
-    height: 850px;
-    border: 1px solid black;
-    margin:60px 20px;
+    height: 750px;
+    margin: 60px 20px;
+    position: relative;
 }
-.card > img{
+
+.card > img {
     width: 100%;
+}
+
+.card:hover .heart {
+    display: block;
+    color: red;
+}
+.card > img:hover .show-second{
+    display: block;
+}
+.show-second{
+    backface-visibility: url('../img/1b.webp');
 }
