@@ -22,7 +22,7 @@ footer {
         /*CONTEINER*/
 .conteiner {
     max-width: 1500px;
-    height: 80px;
+    min-height: 80px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -77,6 +77,11 @@ footer {
     width: 25%;
     margin: 60px 20px;
     position: relative;
+    display: inline-block;
+}
+
+.second-img,.first-img{
+    width: 100%;
 }
 
 .info{
@@ -156,6 +161,7 @@ footer {
     right: -5px;
     background-color: white;
 }
+
 .company{
     font-weight: bold;
     font-size: 1.25rem;
@@ -192,7 +198,7 @@ footer {
 
         /*HOVER HEART*/
 
-.card:hover .heart, .card:hover.show-second{
+.hov-heart:hover .heart{
     display: block;
     color: red;
 }
@@ -202,22 +208,15 @@ footer {
     text-align: start;
     text-decoration: underline;
 }
+
         /*HOVER IMG*/
-.card-img:hover .second-img{
+.card:hover .second-img{
     display: inline;
 }
 
-.card-img .second-img{
+.second-img{
     display: none;
     position: absolute;
     top: 0;
     left: 0;
-}
-.card >.second-img{   
-    position: relative;
-    display: inline-block;
-}
-
-.second-img,.first-img{
-    width: 100%;
 }
