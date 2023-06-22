@@ -7,6 +7,14 @@
 
 header {
     background-color: #FF6900;
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+body{
+    padding-top: 80px;
 }
 
 nav {
@@ -15,9 +23,14 @@ nav {
 }
 
 footer {
-    border: 1px solid black;
     background-color: #1A1A1A;
-  
+    position: fixed;
+    bottom:0;
+    right: 0;
+    left: 0;
+}
+main{
+    padding-bottom: 100px;
 }
         /*CONTEINER*/
 .conteiner {
