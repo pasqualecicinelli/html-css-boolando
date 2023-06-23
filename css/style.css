@@ -12,6 +12,7 @@ header {
     right: 0;
     left: 0;
     z-index: 1;
+   
 }
 body{
     padding-top: 80px;
@@ -19,7 +20,7 @@ body{
 
 nav {
     min-height: 80px;
-    width: 100%;
+   
 }
 
 footer {
@@ -33,36 +34,20 @@ main{
     padding-bottom: 100px;
 }
         /*CONTEINER*/
-.conteiner {
-    max-width: 1500px;
+.conteiner, .conteiner-foot{
+    max-width: 1180px;
     min-height: 80px;
-    margin-left: auto;
     margin-right: auto;
-}
-.conteiner-foot{
-    max-width: 1500px;
-    min-height: 100px;
     margin-left: auto;
+
+}
+
+.conteiner-card{
+    max-width: 1180px;
     margin-right: auto;
-}
-.conteiner-card {
-    width: 100%;
-}
+    margin-left: auto;  
 
-.conteiner-info {
-    width: 50%;
 }
-
-.conteiner-brand {
-    width: 50%;
-    text-align: end;
-}
-
-.link,
-.login-shop {
-    width: 25%;
-}
-
 .white-text, i {
     color: #FFFEFD;
 
@@ -77,18 +62,10 @@ main{
     font-weight: bold;
     text-decoration: none;
 }
-
-.logo {
-    width: 50%;
-    text-align: center;
-}
-
-.login-shop {
-    text-align: end;
-}
 .card {
-    width: 25%;
-    margin: 60px 20px;
+    width: 31%;
+    margin: 60px 10px;
+   
     position: relative;
     display: inline-block;
 }
@@ -98,17 +75,18 @@ main{
 }
 
 .info{
-    margin-right:5px;
+    margin:0 5px;
 }
 .found-on{
     font-weight: bold;
+    
 }
 .info, .found-on{
     font-size: 1rem;
 }
 
-.logo>img {
-    width: 20%;
+.logo{
+    width: 150px;
 }
 
 .marchio,
@@ -182,7 +160,7 @@ main{
 }
 .fa-brands{
     font-size: 1.25rem;
-    margin: 7px 3px; 
+    margin: 7px 4px; 
 }
 
 .flex {
@@ -207,6 +185,9 @@ main{
 
 .wrap {
     flex-wrap: wrap;
+}
+.flex-col{
+    flex-direction: column;
 }
 
         /*HOVER HEART*/
